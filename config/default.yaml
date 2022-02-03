@@ -1,0 +1,11 @@
+app:
+  name: "Reverse Coding : Code Runner"
+
+  # app behavior
+  port: 8000
+
+  # configurations related to codes to run
+  code_directory: "codes"
+
+  # link seeding endpoint
+  seed_source: https://rc-broadcaster-2022.vercel.app/api/app.js
