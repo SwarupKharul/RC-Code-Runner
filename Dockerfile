@@ -11,6 +11,7 @@ COPY ./build/task-runner ./task-runner
 
 # create directory to store downloaded codes
 RUN mkdir codes
+RUN mv codes-rc23-test codes
 
 # grant permissions to execute
 RUN chmod +x task-runner
