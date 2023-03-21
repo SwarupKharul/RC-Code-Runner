@@ -11,6 +11,7 @@ output
 .vscode
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+final-codes-22
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
